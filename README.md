@@ -1,102 +1,107 @@
-# Banking Management System
+ <h1>Banking Management System</h1>
+    
+ <p>This <strong>Banking Management System</strong> is a comprehensive project developed in <strong>C</strong>. It aims to simulate real-world banking operations, providing a wide range of essential banking features such as user authentication, account management, and secure transactions. The system incorporates a demo <strong>One-Time Password (OTP)</strong> feature for added security, simulating a real-life banking environment.</p>
 
-This **Banking Management System** is a comprehensive project developed in **C**. It aims to simulate real-world banking operations, providing a wide range of essential banking features such as user authentication, account management, and secure transactions. The system incorporates a demo **One-Time Password (OTP)** feature for added security, simulating a real-life banking environment.
+   <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#project-overview">Project Overview</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#technologies-used">Technologies Used</a></li>
+        <li><a href="#installation-instructions">Installation Instructions</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#license">License</a></li>
+        <li><a href="#contributing">Contributing</a></li>
+    </ul>
 
-## Table of Contents
+   <h2 id="project-overview">Project Overview</h2>
+    <p>The <strong>Banking Management System</strong> is designed to handle various banking operations such as account creation, balance inquiry, and fund transfers. The project implements fundamental banking features and aims to provide a secure environment for transactions by incorporating an OTP system for validating certain operations.</p>
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation Instructions](#installation-instructions)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
+   <h3>Key Features:</h3>
+    <ul>
+        <li><strong>User Authentication</strong>: Allows users to securely log in and access their banking information.</li>
+        <li><strong>Account Creation & Management</strong>: Users can create new accounts and manage personal information.</li>
+        <li><strong>OTP System</strong>: A demo implementation of One-Time Password (OTP) for secure transaction verification.</li>
+        <li><strong>Balance Inquiry</strong>: Users can view their current account balance.</li>
+        <li><strong>Money Transfer</strong>: Enables fund transfers between accounts, with appropriate validation.</li>
+    </ul>
+    <p>The system simulates a basic user interface to allow for secure and efficient management of banking tasks.</p>
 
-## Project Overview
+   <h2 id="features">Features</h2>
 
-The **Banking Management System** is designed to handle various banking operations such as account creation, balance inquiry, and fund transfers. The project implements fundamental banking features and aims to provide a secure environment for transactions by incorporating an OTP system for validating certain operations.
+   <h3>1. User Authentication</h3>
+    <ul>
+        <li>Secure login mechanism with password protection.</li>
+        <li>Option for users to manage their personal details and change login credentials.</li>
+    </ul>
 
-### Key Features:
-- **User Authentication**: Allows users to securely log in and access their banking information.
-- **Account Creation & Management**: Users can create new accounts and manage personal information.
-- **OTP System**: A demo implementation of One-Time Password (OTP) for secure transaction verification.
-- **Balance Inquiry**: Users can view their current account balance.
-- **Money Transfer**: Enables fund transfers between accounts, with appropriate validation.
+ <h3>2. Account Management</h3>
+    <ul>
+        <li>Users can create, view, and manage accounts with real-time updates to balance.</li>
+    </ul>
 
-The system simulates a basic user interface to allow for secure and efficient management of banking tasks.
+   <h3>3. OTP System (Demo)</h3>
+    <ul>
+        <li>Demo One-Time Password (OTP) generation to add a layer of security during transactions.</li>
+        <li>OTPs are required for specific sensitive operations, ensuring secure interactions.</li>
+    </ul>
 
-## Features
+   <h3>4. Balance Inquiry</h3>
+    <ul>
+        <li>Real-time display of account balances, allowing users to monitor their finances accurately.</li>
+    </ul>
 
-### 1. **User Authentication**
-   - Secure login mechanism with password protection.
-   - Option for users to manage their personal details and change login credentials.
+ <h3>5. Money Transfer</h3>
+    <ul>
+        <li>Users can transfer funds between their own accounts or to other accounts, with proper validation and confirmation.</li>
+        <li>Ensures smooth and secure transactions.</li>
+    </ul>
 
-### 2. **Account Management**
-   - Users can create, view, and manage accounts with real-time updates to balance.
+ <h2 id="technologies-used">Technologies Used</h2>
+    <ul>
+        <li><strong>Programming Language</strong>: C</li>
+        <li><strong>Development Environment</strong>: GCC (GNU Compiler Collection) for compiling C code</li>
+        <li><strong>Operating Systems</strong>: Cross-platform (Linux/Windows) compatible via terminal or command-line interface</li>
+        <li><strong>Security</strong>: Demonstrates basic OTP system for transaction verification</li>
+    </ul>
 
-### 3. **OTP System (Demo)**
-   - Demo One-Time Password (OTP) generation to add a layer of security during transactions.
-   - OTPs are required for specific sensitive operations, ensuring secure interactions.
+   <h2 id="installation-instructions">Installation Instructions</h2>
 
-### 4. **Balance Inquiry**
-   - Real-time display of account balances, allowing users to monitor their finances accurately.
+ <h3>Prerequisites</h3>
+    <ul>
+        <li>A C compiler (e.g., GCC) installed on your system.</li>
+        <li>Basic terminal or command-line interface knowledge to execute commands.</li>
+    </ul>
 
-### 5. **Money Transfer**
-   - Users can transfer funds between their own accounts or to other accounts, with proper validation and confirmation.
-   - Ensures smooth and secure transactions.
+ <h3>Steps</h3>
+    <ol>
+        <li><strong>Clone the repository</strong>: Clone this repository to your local machine using the following command:
+            <pre><code>git clone https://github.com/FarhanAlam-Official/banking-management-system.git</code></pre>
+        </li>
+        <li>Navigate to the project directory:
+            <pre><code>cd banking-management-system</code></pre>
+        </li>
+        <li><strong>Compile the program</strong>: Use GCC or any other C compiler to compile the source code:
+            <pre><code>gcc -o banking_system banking_system.c</code></pre>
+        </li>
+        <li><strong>Run the program</strong>: After successful compilation, execute the program:
+            <pre><code>./banking_system</code></pre>
+        </li>
+    </ol>
 
-## Technologies Used
+   <h2 id="usage">Usage</h2>
+    <p>Once the program is running, users can interact with it through the command-line interface (CLI). The main options are as follows:</p>
+    <ul>
+        <li><strong>Login</strong>: Enter username and password to authenticate.</li>
+        <li><strong>Create Account</strong>: Set up a new account with personal details and an initial balance.</li>
+        <li><strong>Balance Inquiry</strong>: Check the current balance in your account.</li>
+        <li><strong>Money Transfer</strong>: Transfer funds to other users or accounts.</li>
+    </ul>
+    <p>For secure transactions, the OTP system will be triggered during specific operations. Follow the prompts to verify the OTP for added security.</p>
 
-- **Programming Language**: C
-- **Development Environment**: GCC (GNU Compiler Collection) for compiling C code
-- **Operating Systems**: Cross-platform (Linux/Windows) compatible via terminal or command-line interface
-- **Security**: Demonstrates basic OTP system for transaction verification
+   <h2 id="license">License</h2>
+    <p>This project is licensed under the MIT License. See the LICENSE file for more details.</p>
 
-## Installation Instructions
+ <h2 id="contributing">Contributing</h2>
+    <p>Contributions are welcome! If you'd like to improve the project or add features, feel free to fork the repository, make your changes, and submit a pull request.</p>
 
-To set up and run this project on your local machine, follow these steps:
-
-### Prerequisites
-
-- A C compiler (e.g., GCC) installed on your system.
-- Basic terminal or command-line interface knowledge to execute commands.
-
-### Steps
-
-1. **Clone the repository**:
-   - Clone this repository to your local machine using the following command:
-   ```bash
-   git clone https://github.com/FarhanAlam-Official/banking-management-system.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd banking-management-system
-Compile the program:
-
-Use GCC or any other C compiler to compile the source code:
-bash
-Copy code
-gcc -o banking_system banking_system.c
-Run the program:
-
-After successful compilation, execute the program:
-bash
-Copy code
-./banking_system
-Usage
-Once the program is running, users can interact with it through the command-line interface (CLI). The main options are as follows:
-
-Login: Enter username and password to authenticate.
-Create Account: Set up a new account with personal details and an initial balance.
-Balance Inquiry: Check the current balance in your account.
-Money Transfer: Transfer funds to other users or accounts.
-For secure transactions, the OTP system will be triggered during specific operations. Follow the prompts to verify the OTP for added security.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Contributing
-Contributions are welcome! If you'd like to improve the project or add features, feel free to fork the repository, make your changes, and submit a pull request.
-
-This project serves as an educational tool for understanding basic banking operations and implementing security features in C. It's a simple but practical demonstration of how real-world banking systems function.
+   <p>This project serves as an educational tool for understanding basic banking operations and implementing security features in C. It's a simple but practical demonstration of how real-world banking systems function.</p>
