@@ -1,6 +1,6 @@
 # Banking Management System
 
-This **Banking Management System** is a comprehensive project developed in **C** as part of my 2nd-semester final project. It aims to simulate real-world banking operations, providing a wide range of essential banking features such as user authentication, account management, and secure transactions. The system incorporates a demo **One-Time Password (OTP)** feature for added security, simulating a real-life banking environment.
+This **Banking Management System** is a comprehensive project developed in **C**. It aims to simulate real-world banking operations, providing a wide range of essential banking features such as user authentication, account management, and secure transactions. The system incorporates a demo **One-Time Password (OTP)** feature for added security, simulating a real-life banking environment.
 
 ## Table of Contents
 
