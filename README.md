@@ -75,16 +75,16 @@
  <h3>Steps</h3>
     <ol>
         <li><strong>Clone the repository</strong>: Clone this repository to your local machine using the following command:
-            <pre><code>git clone https://github.com/FarhanAlam-Official/banking-management-system.git</code></pre>
+            <pre><code>git clone https://github.com/FarhanAlam-Official/Bank-Management-System.git</code></pre>
         </li>
         <li>Navigate to the project directory:
-            <pre><code>cd banking-management-system</code></pre>
+            <pre><code>cd Banking-Management-System</code></pre>
         </li>
         <li><strong>Compile the program</strong>: Use GCC or any other C compiler to compile the source code:
-            <pre><code>gcc -o banking_system banking_system.c</code></pre>
+            <pre><code>gcc -o Bank Management System Bank Management System.c</code></pre>
         </li>
         <li><strong>Run the program</strong>: After successful compilation, execute the program:
-            <pre><code>./banking_system</code></pre>
+            <pre><code>./Bank Management System</code></pre>
         </li>
     </ol>
 
